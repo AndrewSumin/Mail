@@ -1,3 +1,2 @@
-@import url(folders.css);
-@import url(folders__head.css);
-@import url(folder/folders__folder.css);
+@import url(../common/folders/folders.all.css);
+@import url(folder/folders__folder.css)

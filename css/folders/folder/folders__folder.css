@@ -1,26 +1,3 @@
-.folders__folder{
-}
-
     .folders__folder_active{
-        background:#eee;
+        color:#C00;
     }
-
-    .folders__folder__name{
-        padding-left:15px;
-    }
-
-    .folders__folder__new{
-        text-align:right;
-        font-weight:bold;
-        font-size:13px;
-    }
-    .folders__folder__total{
-        padding-right:15px;
-        text-align:right;
-        font-size:13px;
-    }
-    
-    .folders__folder__link{
-        margin-left:13px;
-    }
-    
