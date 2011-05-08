@@ -18,18 +18,21 @@
                         <td class="folders__head__new">новых</td>
                         <td class="folders__head__total">всего</td>
                     </tr>
-                    <tr class="folders__folder folders__folder_active">
+                    <tr class="folders__folder folders__folder_active Mail-Folders-Folder" onclick="return {id: 'income'}">
                         <td class="folders__folder__name"><a href="#" class="folders__folder__link">Входящие</a></td>
-                        <td class="folders__folder__new">4</td>
-                        <td class="folders__folder__total">16</td>
+                        <td class="folders__folder__new Mail-Folders-Folder-New">4</td>
+                        <td class="folders__folder__total Mail-Folders-Folder-Total">16</td>
                     </tr>
-                    <tr class="folders__folder">
+                    <tr class="folders__folder Mail-Folders-Folder" onclick="return {id: 'delete'}">
                         <td class="folders__folder__name"><a href="#" class="folders__folder__link">Удалённые</a></td>
-                        <td class="folders__folder__new">&#160;</td>
-                        <td class="folders__folder__total">160</td>
+                        <td class="folders__folder__new Mail-Folders-Folder-New">&#160;</td>
+                        <td class="folders__folder__total Mail-Folders-Folder-Total">160</td>
                     </tr>
                 </tbody>
             </table>
+        </div>
+        <div style="position:absolute; bottom:0">
+            <span>Всего писем: </span><span class="jsx-component" onclick="return {types:['{Mail}.Footer']}">10</span>
         </div>
     </body>
 </html>
