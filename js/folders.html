@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Список папок</title>
+        <link rel="stylesheet" type="text/css" href="/css/pages/page.css"/>
+        <script src="http://i.hh.ru/js/jsx/jsx.js"></script>
+        <script>jsx.Locator.set('Mail', {src: '/js/Mail.js', charset: 'utf-8'});</script> 
+    </head>
+    <body>
+        <div style="width:300px">
+            <table class="folders jsx-component" onclick="return {types:['{Mail}.Folders']}">
+                <tbody>
+                    <tr>
+                        <td class="folders__head__title">
+                           <a href="#">Папки</a>
+                        </td>
+                        <td class="folders__head__new">новых</td>
+                        <td class="folders__head__total">всего</td>
+                    </tr>
+                    <tr class="folders__folder folders__folder_active">
+                        <td class="folders__folder__name"><a href="#" class="folders__folder__link">Входящие</a></td>
+                        <td class="folders__folder__new">4</td>
+                        <td class="folders__folder__total">16</td>
+                    </tr>
+                    <tr class="folders__folder">
+                        <td class="folders__folder__name"><a href="#" class="folders__folder__link">Удалённые</a></td>
+                        <td class="folders__folder__new">&#160;</td>
+                        <td class="folders__folder__total">160</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
