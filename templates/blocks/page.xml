@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail:doc xmlns:mail="http://dev.mail.ru/schema">
+    <mail:import url="header.tmpl"/>
+    <mail:set name="body">
+        <div class="menu">...</div>
+        <div class="content">
+            <mail:get name="mail-page"/>
+        </div>
+    </mail:set>
+</mail:doc>

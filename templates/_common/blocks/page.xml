@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mail:doc xmlns:mail="http://dev.mail.ru/schema">
+    <mail:import url="header.tmpl"/>
+
+    <mail:set name="html">
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title><mail:get name="title"/></title>
+            </head>
+            <body><mail:get name="content"/></body>
+        </html>
+    </mail:set>
+
+    <mail:set name="title">mail.ru</mail:set>
+
+    <mail:set name="content">
+        <mail:get name="header"/>
+        <mail:get name="body"/>
+    </mail:set>
+    
+    <mail:set name="body">Извиите, такой страницы не сеществует</mail:set>
+</mail:doc>
