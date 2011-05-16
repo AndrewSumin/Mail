@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mail:doc xmlns:mail="http://dev.mail.ru/schema">
-    <mail:set name="header">
-        <div class="header"><mail:get name="progect-name"/></div>
-    </mail:set>
-    <mail:set name="progect-name">mail.ru</mail:set>
-</mail:doc>
